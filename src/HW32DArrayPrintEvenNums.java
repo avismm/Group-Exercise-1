@@ -1,7 +1,7 @@
 /*Create a 2D array or integer type where you will store odd and even
         numbers. Develop a program which will identify/print the even
         numbers only.*/
-public class HW32DArrayEvenNums {
+public class HW32DArrayPrintEvenNums {
     public static void main(String[] args) {
         int [][] nums={{29,87,50,89,10,12,90}};
 
