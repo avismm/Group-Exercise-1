@@ -7,7 +7,7 @@ public class HW32DArrayPrintEvenNums {
 
         for (int i = 0; i < nums.length; i++) {
             for (int j = 0; j < nums[0].length; j++) {
-                if(nums[i][j]%2==0){
+                if(nums[i][j]%2==0){// Checks if the element in array is divisible by 2. if true, the element will be an even number.
                     System.out.print(nums[i][j]+" ");
 
                 }
