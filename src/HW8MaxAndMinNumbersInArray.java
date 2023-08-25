@@ -3,7 +3,11 @@
 public class HW8MaxAndMinNumbersInArray {
     public static void main(String[] args) {
         int [] nums={34,7,45,34,66,23,21};
-        int maxNum=nums[0];
+
+
+        //block of code for calculating the maximum number in the array
+
+        int maxNum=nums[0];//initialization
         for (int i = 0; i < nums.length; i++) {
 
         /* Under the current iteration of the for loop, we check whether the next element
@@ -19,7 +23,10 @@ public class HW8MaxAndMinNumbersInArray {
         System.out.println("The maximum number is "+maxNum);
         System.out.println();
 
-        int minNum=nums[0];
+
+        //block of code for calculating the minimum number in the array
+
+        int minNum=nums[0];//initialization
         for (int i = 0; i < nums.length; i++) {
 
              /* Under the current iteration of the for loop, we check whether the next element

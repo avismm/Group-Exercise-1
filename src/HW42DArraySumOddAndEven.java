@@ -6,6 +6,7 @@ public class HW42DArraySumOddAndEven {
         int sumOdd = 0;
         int sumEven = 0;
 
+        //summing of odd numbers
         for (int i = 0; i < nums.length; i++) {
             for (int j = 0; j < nums[0].length; j++) {
                 if (nums[i][j] % 2 != 0) {
@@ -18,6 +19,7 @@ public class HW42DArraySumOddAndEven {
         }
         System.out.println();
 
+        //summing of even numbers
         for (int i = 0; i < nums.length; i++) {
             for (int j = 0; j < nums[0].length; j++) {
                 if (nums[i][j] % 2 == 0) {
